@@ -1,0 +1,50 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    When I want to save my work on GitHub then I have to create a remote repository
+    for my local repository using 'git remote origin "and GitHub repository URL"'.
+    That will help you share your work with others and work within a team.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    The remote repository could include some changes that might conflict with my
+    local repository.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fork will copy a repository from someone's GitHub account to my GitHub account
+    with giving him a signal that someone has forked your work.
+    Clone will copy a repository from my GitHub accout to my local working directory,
+    it also could be used to copy a repository from a local directory to another
+    local directory.
+    Branch will make a different path in your directory rather than master to
+    start commit to it if you want to create a new version or test a feature you
+    want to add.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    The ability to work on it without having Internet connection.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Using other version controls that are document oriented, and that would be
+    hard as there will be no history for each change, rather you will always have
+    just the last version, and if you made any mistake that led to break the
+    program you have to revise the whole code by yourself and that will take a
+    lot of time. If your teammate made a change and saved it on your file then
+    no conflict will be shown to him so you have to tell him every time you make
+    a change and where you have made it.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    You would like to save using a branch when you want to make an experiment and you
+    don't want the master to be affected. And if you are collaborating with others
+    then it is better to work on a branch test it and if it works properly then
+    merge it with master.
+    You would like to save on master if you are working by yourself with a clear path
+    and a clear plan of what you want to do.
